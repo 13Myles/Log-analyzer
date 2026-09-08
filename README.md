@@ -1,8 +1,5 @@
 # Log-analzyer
 A Python-based cybersecurity log analyzer that processes login data, detects suspicious authentication activity, identifies repeated failed login attempts, and calculates a risk score to help assess potential brute-force attacks.
-# Cyber Log Analyzer
-
-A Python-based cybersecurity tool that analyzes login logs and identifies potentially suspicious authentication activity.
 
 ## Overview
 
