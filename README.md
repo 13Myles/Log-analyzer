@@ -1,16 +1,16 @@
 # Log-analzyer
 A Python-based cybersecurity log analyzer that processes login data, detects suspicious authentication activity, identifies repeated failed login attempts, and calculates a risk score to help assess potential brute-force attacks.
-# 🛡️ Cyber Log Analyzer
+# Cyber Log Analyzer
 
 A Python-based cybersecurity tool that analyzes login logs and identifies potentially suspicious authentication activity.
 
-## 📌 Overview
+## Overview
 
 **Cyber Log Analyzer** processes login data from a CSV file and performs basic security analysis. It identifies repeated failed login attempts, suspicious IP addresses, and potentially targeted user accounts.
 
 The program also calculates a **risk score from 0–100** and assigns an overall security level based on the activity detected.
 
-## 🚀 Features
+## Features
 
 * Analyze login activity
 * Count successful and failed login attempts
@@ -21,13 +21,13 @@ The program also calculates a **risk score from 0–100** and assigns an overall
 * Assign Low, Medium, or High risk levels
 * Generate a final investigation summary
 
-## 🛠️ Technologies
+## Technologies
 
 * **Python**
 * **Pandas**
 * **CSV**
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Cyber-Log-Analyzer/
@@ -37,7 +37,7 @@ Cyber-Log-Analyzer/
 └── README.md
 ```
 
-## ▶️ How to Run
+## How to Run
 
 ### 1. Install Pandas
 
@@ -61,7 +61,7 @@ Example:
 How many failed attempts should trigger an alert? 3
 ```
 
-## 🔍 Example Detection
+## Example Detection
 
 The analyzer can identify activity such as:
 
@@ -75,18 +75,18 @@ It then calculates an overall risk score:
 
 ```text
 Risk Score: 80 /100
-🚨 HIGH RISK
+  HIGH RISK
 
 Possible brute-force attack detected.
 ```
 
-## 🎯 Purpose
+## Purpose
 
 This project was created to practice applying **Python programming and data analysis to cybersecurity**.
 
 It demonstrates how security logs can be processed to identify patterns that may indicate suspicious authentication activity.
 
-## 🔮 Future Improvements
+## Future Improvements
 
 Planned improvements include:
 
@@ -99,6 +99,6 @@ Planned improvements include:
 * Graphical dashboard
 * Windows and Linux log support
 
-## 👨‍💻 Skills Demonstrated
+## Skills Demonstrated
 
 **Python • Pandas • Log Analysis • Threat Detection • Risk Scoring • Cybersecurity • SOC Fundamentals**
